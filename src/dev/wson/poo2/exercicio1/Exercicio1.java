@@ -16,8 +16,7 @@ public class Exercicio1 {
                 case 4 -> dividir();
                 default -> System.out.println("Opção inválida.");
             }
-           } while (opcao != 0);
-           
+           } while (opcao != 0);  
     }
     private static int exibirMenu() {
         System.out.println("----------- Calculadora ------------");
